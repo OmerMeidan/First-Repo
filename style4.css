@@ -1,0 +1,29 @@
+p{
+    display: none;
+}
+
+
+.squares{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.squares div{
+    
+    background-color: blue;
+    width: 100px ;
+    height: 100px;
+
+}
+
+.squares div:hover {
+
+    background-color: aqua;
+}
+
+.squares div:hover p{
+    display: block;
+}
+  
