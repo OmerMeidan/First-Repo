@@ -341,7 +341,9 @@ body {
 
 #explain3 {
     /* width: 500px; */
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
     /* margin-left: 480px; */
 }
 
