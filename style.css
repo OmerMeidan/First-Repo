@@ -1,0 +1,30 @@
+.color {
+    color: rgb(97, 0, 252) !important;
+}
+
+#color2 {
+    color: darkgreen;
+    font-size: 40px;
+}
+
+h1.blue {
+    color: blue;
+}
+
+#square1 {
+    padding: 10px;
+    background-color: blue;
+    display: inline-block;
+}
+
+#square2 {
+    padding: 10px;
+    background-color: blue;
+    display: inline-block;
+}
+
+
+.squares {
+    display: flex ;
+    height: 100px;
+}

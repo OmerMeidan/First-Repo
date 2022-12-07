@@ -1,0 +1,80 @@
+body {
+
+    text-transform: uppercase;
+    font-size: 50px;
+
+}
+
+#text {
+    color: blue;
+    font-size: 5rem;
+}
+
+.squares {
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+#one {
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+
+}
+
+#two {
+
+    background-color: red;
+    width: 30px;
+    height: 30px;
+
+
+}
+
+#three {
+    background-color: green;
+    width: 30px;
+    height: 30px;
+
+
+}
+
+.upside {
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+#word {}
+
+
+#image {}
+
+@media screen and (min-width: 768px) {
+
+    #text {
+
+        color: red;
+    }
+
+    .squares {
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    .upside {
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+}
