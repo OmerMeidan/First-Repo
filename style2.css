@@ -238,14 +238,14 @@ body {
 
 #p-news1 {
     width: 30vw;
-    height: 5vw;
+    height: auto;
     border: 3px solid black;
 
 }
 
 #p-news2 {
     width: 30vw;
-    height: 5vw;
+    height: auto;
     border-radius: 3px;
     border: 3px solid black;
 
@@ -255,7 +255,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 10vh;
+    height: auto;
 }
 
 
@@ -359,12 +359,17 @@ body {
 .icons {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 10vh;
     width: 30vw;
     margin-left: 15vw;
    
 
+
+}
+.icons img{
+    height: 10vh;
+    width: 8vw;
 
 }
 
@@ -417,7 +422,8 @@ body {
 
     .andrew {
         width: 100vw;
-        height: 27.5vh;
+        height: auto;
+        align-items: center;
 
     }
 
@@ -425,8 +431,8 @@ body {
         display: flex;
         justify-content: center;
         justify-content: center;
-        width: 100vw;
-        height: 30vw;
+        width: max-content;
+        height: auto;
 
     }
 
@@ -463,20 +469,20 @@ body {
     .p-news3 {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-
+        justify-content: space-around;
+        height: auto;
     }
 
     #p-news1 {
         width: 30vw;
-        height: 5vw;
+        height: auto;
         border: 3px solid black;
 
     }
 
     #p-news2 {
         width: 30vw;
-        height: 5vw;
+        height: auto;
         border-radius: 3px;
         border: 3px solid black;
 
@@ -484,8 +490,8 @@ body {
 
     .contact2 {
         padding-left: 7.5vw;
-        justify-content: space-around;
-        width: 100vw;
+        justify-content: space-between;
+        width: 90vw;
 
     }
 
@@ -496,31 +502,16 @@ body {
         margin-right: 18vw;
     }
 
-    #p-news1 {
-        width: 30vw;
-        height: 20vw;
-        border: 3px solid black;
+    .icons img{
 
-    }
-
-    #p-news2 {
-        width: 30vw;
-        height: 15vw;
-        border-radius: 3px;
-        border: 3px solid black;
-
-    }
-
-    .p-news3 {
-
-        display: flex;
-        justify-content: space-around;
+        height: 7vh;
+        width: 12vw;
 
     }
 
     #andrew2 {
 
-        height: 35vh;
+        height: auto;
 
     }
 
